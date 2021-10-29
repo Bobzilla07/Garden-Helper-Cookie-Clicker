@@ -375,7 +375,8 @@ class UI {
     };
   }
 
-  
+  static get readmeLink() { return 'https://github.com/yannprada/'
+      + 'cookie-garden-helper/blob/master/README.md#how-it-works'; }
 
   static build(config) {
     doc.qSel('#row2 .productButtons').insertAdjacentHTML('beforeend', `
@@ -387,7 +388,7 @@ class UI {
   <style>${this.css}</style>
   <a href="${this.readmeLink}"
     target="new">how it works</a>
-  <div id="cookieGardenHelperTitle" class="title">Garden Helper Cookie Clicker</div>
+  <div id="cookieGardenHelperTitle" class="title">Cookie Garden Helper</div>
   <div id="cookieGardenHelperTools">
     <div class="cookieGardenHelperBigPanel" id="autoHarvestPanel">
       <h2>
